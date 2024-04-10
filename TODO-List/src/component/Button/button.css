@@ -1,0 +1,14 @@
+
+.btn-txt {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-txt:hover {
+    background-color: #0056b3;
+}

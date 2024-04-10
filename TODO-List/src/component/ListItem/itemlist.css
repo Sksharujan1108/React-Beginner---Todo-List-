@@ -1,0 +1,30 @@
+.list-item {
+    margin-bottom: 10px;
+    background-color: #fff;
+    /* padding: 10px; */
+    border-radius: 5px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 250px; */
+
+}
+
+.list-item-title{
+    display: flex;
+    justify-content: start;
+    max-width: 400px;
+    word-wrap: break-word;
+    text-align: start;
+
+}
+.listStyle{
+    width: 400px;
+}
+  
