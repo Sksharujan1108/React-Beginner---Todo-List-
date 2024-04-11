@@ -1,0 +1,48 @@
+.show-note-list {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-right: 10px;
+    margin: 18px 18px 18px 0; /* Added margin-bottom */
+    width: 240px;
+    float: left;
+}
+
+.show-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.show-content {
+    font-size: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: center; */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.delete-button,
+.update-button {
+    /* Add button-specific styles here */
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-button:hover,
+.update-button:hover {
+    color: red; /* Change button color on hover */
+}
