@@ -44,6 +44,7 @@ const App = () => {
       <CreateAreaField
         addNote={addNote}
       />
+      {/* // list */}
       {notes.map((noteItem, index) => {
         return (
           <ShowNoteList
